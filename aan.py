@@ -1,8 +1,3 @@
-try:
-    # Blok kode yang mungkin menyebabkan kesalahan
-except Exception as e:
-    st.error(f"Error: {e}")
-
 import cv2
 import streamlit as st
 import numpy as np
